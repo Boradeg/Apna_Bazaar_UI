@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/drawer_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/drawer_see_full_profile"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="See Full Profile" />
+
+    <item
+        android:id="@+id/drawer_win_history"
+        android:icon="@drawable/baseline_home_24"
+
+        android:title="Win History" />
+
+    <item
+        android:id="@+id/drawer_bid_history"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Bid History" />
+
+    <item
+        android:id="@+id/drawer_withdraw_point"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Withdraw Point" />
+    <item
+        android:id="@+id/drawer_how_to_play"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="How to play" />
+
+    <item
+        android:id="@+id/drawer_game_rates"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Game Rates" />
+
+
+    <item
+        android:id="@+id/drawer_change_password"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Change Password" />
+    <item
+        android:id="@+id/drawer_contact_us"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Contact Us" />
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_notifications_black_24dp"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

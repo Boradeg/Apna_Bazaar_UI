@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.myapplication.ui.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_starline"
+        android:name="com.example.myapplication.ui.StarlineFragment"
+        android:label="starline"
+        tools:layout="@layout/fragment_starline" />
+
+    <fragment
+        android:id="@+id/navigation_chart"
+        android:name="com.example.myapplication.ui.ChartFragment"
+        android:label="chart"
+        tools:layout="@layout/fragment_chart" />
+    <fragment
+        android:id="@+id/navigation_win_history"
+        android:name="com.example.myapplication.ui.WinHistoryFragment"
+        android:label="Win History"
+        tools:layout="@layout/fragment_win_history" />
+
+    <fragment
+        android:id="@+id/navigation_bid_history"
+        android:name="com.example.myapplication.ui.BidHistoryFragment"
+        android:label="Bid History"
+        tools:layout="@layout/fragment_bid_history" />
+</navigation>
